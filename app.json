@@ -1,0 +1,22 @@
+{
+  "name": "MusicApp",
+  "description": "YORSA - Music Bot",
+  "repository": "https://github.com/SUDEEPBOTS/yukiapp",
+  "keywords": ["music", "bot", "discord", "wave", "node"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "scripts": {
+    "heroku-postbuild": "npm install"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "echo"
+    }
+  },
+  "addons": [],
+  "features": ["runtime-dyno-metadata"]
+}
