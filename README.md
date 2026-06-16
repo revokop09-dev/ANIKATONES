@@ -1,4 +1,4 @@
-# 🎵 YUKITONES - Web-Based Telegram Music Bot
+# 🎵 ANIKATONES - Web-Based Telegram Music Bot
 
 WaveTune is a **feature-rich Telegram music bot** that combines the best features of existing music bots, bringing a **modern web-based GUI** experience to music streaming within Telegram. Built with **TypeScript**, it offers efficiency, scalability, and seamless integration with **Telegram Mini Apps**.
 
