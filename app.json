@@ -1,6 +1,6 @@
 {
   "name": "MusicApp",
-  "description": "YORSA - Music Bot",
+  "description": "ANIKA - Music Bot",
   "repository": "https://github.com/SUDEEPBOTS/yukiapp",
   "keywords": ["music", "bot", "discord", "wave", "node"],
   "buildpacks": [
