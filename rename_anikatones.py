@@ -13,14 +13,14 @@ for root, dirs, files in os.walk('.'):
                     content = f.read()
                 
                 # Sudeep Boss ke naye naam replace karo
-                content = content.replace('YORSA TUNES', 'YUKITONES')
-                content = content.replace('Yorsa', 'Yukitones')
-                content = content.replace('Yukiitune', 'YUKITONES')
-                content = content.replace('HKMUSIC', 'SUDEEPBOTS')
+                content = content.replace('YORSA TUNES', 'ANIKATONES')
+                content = content.replace('Yorsa', 'Anikatones')
+                content = content.replace('Yukiitune', 'ANIKATONES')
+                content = content.replace('HKMUSIC', 'HELL_CODER')
                 
                 with open(filepath, 'w', encoding='utf-8') as f:
                     f.write(content)
             except Exception:
                 pass
 
-print("✅ OPERATION SUCCESS: Har jagah ab sirf YUKITONES ka raaj hai! 🌸")
+print("✅ OPERATION SUCCESS: Har jagah ab sirf ANIKATONES ka raaj hai! 🌸")
